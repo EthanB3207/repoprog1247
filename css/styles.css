@@ -1,0 +1,71 @@
+/* Name: Ethan Barrett | Student ID: ebarr3207 */
+
+/*Root Element Styles */
+html {
+    font: 20px Arial, sans-serif;
+    background-color: #000;
+    color: white;
+    line-height: 1.6;
+    font-variant: normal;
+    font-style: normal;
+    font-weight: normal;
+}
+
+/* Body Styles */
+body {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 0.2rem solid red;
+background-color: black;
+}
+
+/*  Layout Styles */
+main {
+    float: left;
+    width: 70%;
+}
+
+aside {
+    float: right;
+    width: 30%;
+}
+
+footer {
+    clear: both;
+    text-align: center;
+    font-size: 14px;
+    background: linear-gradient(to right, red, black);
+    color: white;
+    padding: 10px;
+}
+
+/* Typography */
+h1 {
+    font-size: 2rem;
+    text-align: center;
+    color: red;
+}
+
+h2 {
+    font-variant: small-caps;
+    color: red;
+    text-align: center;
+}
+
+q {
+    font-style: italic;
+    font-weight: bold;
+    border-left: 4px solid red;
+    padding-left: 10px;
+    box-shadow: 3px 3px 5px rgba(255, 0, 0, 0.5);
+}
+
+/* Image, Figure & Video */
+figure {
+    border: 0.2rem solid red;
+    padding: 10px;
+    background-color: black;
+    border-radius: 10px;
+    text-align: center;
+}
