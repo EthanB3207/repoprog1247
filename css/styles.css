@@ -69,3 +69,14 @@ figure {
     border-radius: 10px;
     text-align: center;
 }
+figcaption {
+    border: 0.9rem solid red;
+    padding: 10px;
+    background-color: black;
+    border-radius: 10px;
+    text-align: center;
+}
+video {
+    border: 0.2rem solid red;
+    border-radius: 5px;
+}
