@@ -17,7 +17,7 @@ body {
     margin: 0 auto;
     padding: 1rem;
     border: 0.2rem solid red;
-background-color: black;
+    background-color: black;
 }
 
 /*  Layout Styles */
@@ -69,6 +69,7 @@ figure {
     border-radius: 10px;
     text-align: center;
 }
+
 figcaption {
     border: 0.9rem solid red;
     padding: 10px;
@@ -109,7 +110,7 @@ label {
     color: whitesmoke;
 }
 
-input, textarea, select {
+input,textarea,select {
     width: 100%;
     padding: 5px;
     margin: 5px 0;
@@ -123,6 +124,7 @@ input, textarea, select {
     html {
         font-size: 16px;
     }
+
     main, aside {
         width: 100%;
         float: none;
