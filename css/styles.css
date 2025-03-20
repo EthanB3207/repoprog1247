@@ -76,7 +76,55 @@ figcaption {
     border-radius: 10px;
     text-align: center;
 }
+
 video {
     border: 0.2rem solid red;
     border-radius: 5px;
+}
+
+/* Aside Section Styles */
+aside h2 {
+    font-variant: small-caps;
+    color: red;
+}
+
+aside ul {
+    list-style: none;
+    padding: 0;
+}
+
+aside a {
+    text-decoration: none;
+    color: red;
+    line-height: 1.8;
+}
+
+aside a:hover {
+    color: white;
+}
+
+/* Form Styles */
+label {
+    font-weight: bold;
+    color: whitesmoke;
+}
+
+input, textarea, select {
+    width: 100%;
+    padding: 5px;
+    margin: 5px 0;
+    background-color: #000;
+    color: white;
+    border: solid red;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+    main, aside {
+        width: 100%;
+        float: none;
+    }
 }
